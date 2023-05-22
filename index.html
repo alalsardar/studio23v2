@@ -14,7 +14,23 @@
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet"> -->
+  <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Exo:wght@300;400;500&display=swap" rel="stylesheet"> -->
+
+  <!-- All sectin font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Banner section font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+  <!-- Font awesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
@@ -31,8 +47,9 @@
   <link href="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  
   <link href="assets/css/custom.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
 
 </head>
 
@@ -43,7 +60,9 @@
         <div class="container">
 
           <!-- ======= Header ======= -->
-          <header id="header" class="header fixed-top">
+          <header id="header" class="header fixed-top" style="background: #fff;
+          padding-top: 10px; padding-bottom:10px;
+          box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);">
             <div class="d-flex align-items-center">
 
               <a href="index.html" class="logo d-flex align-items-center">
@@ -53,7 +72,7 @@
 
               <nav id="navbar" class="navbar">
                 <ul>
-                  <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+                  <li><a class="nav-link scrollto active" href="#hero">HOME</a></li>
                   <li class="dropdown"><a href="#"><span>ROOM & SUITES</span> <i class="bi bi-chevron-down"></i></a>
                     <ul>
                       <li><a href="premier-delux-single.html">PREMIER DELUXE SINGLE</a></li>
@@ -185,14 +204,14 @@
           <!-- Hero -->
           <div data-scroll-section="" class="hero_sec">
             <span class="hero-wrap" data-scroll="" data-aos="zoom-out" data-aos-delay="3000">
-              <span data-scroll="" data-scroll-delay="0.40" data-scroll-speed="10">S</span>
-              <span data-scroll="" data-scroll-delay="0.35" data-scroll-speed="10">T</span>
-              <span data-scroll="" data-scroll-delay="0.28" data-scroll-speed="10">U</span>
-              <span data-scroll="" data-scroll-delay="0.23" data-scroll-speed="10">D</span>
-              <span data-scroll="" data-scroll-delay="0.18" data-scroll-speed="10">I</span>
-              <span data-scroll="" data-scroll-delay="0.15" data-scroll-speed="10">O</span>
-              <span data-scroll="" data-scroll-delay="0.12" data-scroll-speed="10">2</span>
-              <span data-scroll="" data-scroll-delay="0.1" data-scroll-speed="10">3</span>
+              <span data-scroll="" data-scroll-delay="0.40" data-scroll-speed="10" style="color: purple">S</span>
+              <span data-scroll="" data-scroll-delay="0.35" data-scroll-speed="10" style="color: navy">T</span>
+              <span data-scroll="" data-scroll-delay="0.28" data-scroll-speed="10" style="color: #6f42c1">U</span>
+              <span data-scroll="" data-scroll-delay="0.23" data-scroll-speed="10" style="color: #198754">D</span>
+              <span data-scroll="" data-scroll-delay="0.18" data-scroll-speed="10" style="color: #dc3545">I</span>
+              <span data-scroll="" data-scroll-delay="0.15" data-scroll-speed="10" style="color: #0dcaf0">O</span>
+              <span data-scroll="" data-scroll-delay="0.12" data-scroll-speed="10" style="color: #6610f2">2</span>
+              <span data-scroll="" data-scroll-delay="0.1" data-scroll-speed="10" style="color: #ffc107">3</span>
             </span>
           </div>
           <!-- Hero X -->
@@ -419,9 +438,10 @@
   <!-- ======= Footer ======= -->
   <footer id="footer" class="footer" data-scroll-section="" >
 
-    <div class="footer-top" data-scroll="" data-scroll-direction="horizontal" data-scroll-delay="0.18" data-scroll-speed="-6">
+    <div class="footer-top footer-top-bg-color" data-scroll="" data-scroll-direction="horizontal" data-scroll-delay="0.18" data-scroll-speed="-4" >
+      <div class="footer_shadoew">
       <div class="container">
-        <div class="row gy-4">
+        <div class="row">
           <div class="col-lg-5 col-md-12 footer-info">
             <a href="index.html" class="logo d-flex align-items-center">
               <img src="assets/img/logo.png" alt="">
@@ -429,58 +449,47 @@
             </a>
             <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.</p>
             <div class="social-links mt-3">
-              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+              <a href="#" class=""><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#" class=""><i class="fa-brands fa-youtube"></i></i></a>
             </div>
           </div>
 
-          <div class="col-lg-2 col-6 footer-links" >
+          <div class="col-lg-3 col-6 footer-links" >
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
+              <li> <a href="#">Home</a></li>
+              <li> <a href="#">About us</a></li>
+              <li> <a href="#">Terms of service</a></li>
+              <li> <a href="#">Privacy policy</a></li>
             </ul>
           </div>
 
-          <div class="col-lg-2 col-6 footer-links">
-            <h4>Our Services</h4>
+
+          <div class="col-lg-3 col-6 footer-links">
+            <h4>Useful Links</h4>
             <ul>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">24/7 ROOM SERVICE</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">ON CALL DOCTOR</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">IRON WITH IRON BOARD</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">HAIR DRYER</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">OTHERS</a></li>
+              <li> <a href="#">Dhaka,Bangladesh</a></li>
+              <li> <a href="#">01700000000</a></li>
+              <li> <a href="#">info@studio23.com</a></li>
             </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
-            <h4>Contact Us</h4>
-            <p>
-              Dhaka <br>
-              Bangladesh<br><br>
-              <strong>Phone:</strong> 01700000000<br>
-              <strong>Email:</strong> info@studio23s.com<br>
-            </p>
 
           </div>
 
         </div>
       </div>
+      </div>
     </div>
 
-    <div class="container">
+    <div class="container compywright_wrapper">
       <div class="copyright">
-        &copy; Copyright <strong><span>Studio</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>Studio</span></strong>. All Rights Reserved, Develop by <a href="">Creative Technology</a>
       </div>
       <div class="credits">      
-        Designed by <a href="">Creative Technology</a>
+      
       </div>
     </div>
-  </footer><!-- End Footer -->
+  </footer>
+  <!-- End Footer -->
 </div>
 
 
@@ -493,10 +502,8 @@
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
 
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+ 
 
   <!-- greensock -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
@@ -504,6 +511,9 @@
   <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
   <!-- Custom js -->
   <script src="assets/js/script.js"></script>
+
+   <!-- Template Main JS File -->
+   <script src="assets/js/main.js"></script> 
 
 </body>
 

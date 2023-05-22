@@ -1,10 +1,3 @@
-/**
-* Template Name: FlexStart
-* Updated: Mar 10 2023 with Bootstrap v5.2.3
-* Template URL: https://bootstrapmade.com/flexstart-bootstrap-startup-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
 /*--------------------------------------------------------------
 # General
@@ -14,8 +7,15 @@
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  /* font-family: "Open Sans", sans-serif;
+   */
+  /* font-family: 'Exo', sans-serif; */
+  font-family: 'Roboto Slab', serif;
   color: #444444;
+}
+
+p,a{
+  font-size: 18px;
 }
 
 a {
@@ -232,7 +232,7 @@ section {
   font-family: "Nunito", sans-serif;
   font-size: 16px;
   font-weight: 700;
-  color: #013289;
+  color: #0c0c0c;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -248,7 +248,7 @@ section {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #4154f1;
+  color: #0c0c0c;
 }
 
 .navbar .getstarted,
@@ -444,6 +444,9 @@ section {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
+.hero_sec span span{
+  font-family: 'Lobster', cursive;
+}
 .hero {
   width: 100%;
   height: 100vh;
@@ -2220,9 +2223,31 @@ section {
 # Footer
 --------------------------------------------------------------*/
 .footer {
-  background: #f6f9ff;
-  padding: 0 0 30px 0;
+  background: #222222 !important;
+  padding: 0 0 0px 0;
   font-size: 14px;
+}
+
+.footer-top{
+  padding: 0px;
+  /* background: #222222 !important; */
+  
+}
+
+.footer-top-bg-color{
+  /* background: #222222 !important; */
+}
+
+.footer_shadoew{
+  height: 100%;
+  /* background: #222222 !important; */
+  background: #020202d4 !important;
+  /* margin-bottom: -30px !important; */
+  padding-top: 100px !important;
+}
+
+.footer-info P{
+  color: #959393;
 }
 
 .footer .footer-newsletter {
@@ -2240,14 +2265,14 @@ section {
   color: #012970;
 }
 
-.footer .footer-newsletter form {
+/* .footer .footer-newsletter form {
   margin-top: 20px;
   background: #fff;
   padding: 6px 10px;
   position: relative;
   border-radius: 4px;
   border: 1px solid #e1ecff;
-}
+} */
 
 .footer .footer-newsletter form input[type=email] {
   border: 0;
@@ -2279,8 +2304,8 @@ section {
   background: white url(../img/footer-bg.png) no-repeat right top;
   background-size: contain;
   border-top: 1px solid #e1ecff;
-  border-bottom: 1px solid #e1ecff;
-  padding: 60px 0 30px 0;
+  /* border-bottom: 1px solid #e1ecff; */
+  padding: 0px;
 }
 
 @media (max-width: 992px) {
@@ -2313,7 +2338,7 @@ section {
 }
 
 .footer .footer-top .footer-info p {
-  font-size: 14px;
+  font-size: 18px;
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Nunito", sans-serif;
@@ -2327,6 +2352,30 @@ section {
   margin-right: 10px;
   transition: 0.3s;
 }
+
+.footer .footer-top .social-links a .fa-facebook-f{
+  width: 40px;
+  height: 40px;
+  color: white;
+  font-size: 30px;
+  padding-top: 5px;
+  padding-left: 10px;
+  /* background-color: white; */
+  background: rgb(59, 89, 152) !important;
+}
+
+.footer .footer-top .social-links a .fa-youtube{
+  width: 40px;
+  height: 40px;
+  color: white;
+  font-size: 30px;
+  padding-top: 5px;
+  padding-left: 3px;
+  /* background-color: white; */
+  background: rgb(194, 46, 42) !important
+}
+
+
 
 .footer .footer-top .social-links a:hover {
   color: #012970;
@@ -2343,6 +2392,10 @@ section {
 
 .footer .footer-top .footer-links {
   margin-bottom: 30px;
+}
+
+.footer .footer-top .footer-links h4 {
+  color: white;
 }
 
 .footer .footer-top .footer-links ul {
@@ -2362,6 +2415,7 @@ section {
   padding: 10px 0;
   display: flex;
   align-items: center;
+  border-bottom: 1px dotted #959393;
 }
 
 .footer .footer-top .footer-links ul li:first-child {
@@ -2369,7 +2423,7 @@ section {
 }
 
 .footer .footer-top .footer-links ul a {
-  color: #013289;
+  color: #959393;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
@@ -2383,15 +2437,20 @@ section {
   line-height: 26px;
 }
 
+.compywright_wrapper{
+  display: flex;
+  padding: 22px 0px;
+}
+
 .footer .copyright {
   text-align: center;
-  padding-top: 30px;
-  color: #012970;
+  /* padding-top: 30px; */
+  color: #959393;
 }
 
 .footer .credits {
-  padding-top: 10px;
+  /* padding-top: 10px; */
   text-align: center;
   font-size: 13px;
-  color: #012970;
+  color: #959393;
 }
